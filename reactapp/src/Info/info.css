@@ -1,0 +1,28 @@
+.text-container {
+    margin: 50px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: #3a74f1;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Additional styles to enhance readability */
+  p:first-of-type {
+    margin-top: 0;
+  }
+  
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+  

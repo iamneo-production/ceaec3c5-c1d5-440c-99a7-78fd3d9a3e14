@@ -1,0 +1,132 @@
+
+
+
+
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  
+  .policy {
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(244, 245, 247);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(250, 249, 247);
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: #fffbfb;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .sidebar button:hover,
+  .sidebar button:focus {
+    background-color: #ccc;
+    color: #fff;
+  }
+  
+  .sidebar .active button {
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #fff;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .sidebar-heading {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-menu {
+    flex: 1;
+  }
+  
+  .sidebar-menu-item {
+
+  align-items: start;
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+
+    /* display: flex; */
+    font-size: 20px;
+    /* align-items: center; */
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar-menu-item:hover {
+    background-color: #fcfbfb;
+  }
+  
+  .sidebar-menu-item.active {
+    background-color: #fdfbfb;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .sidebar-menu-item-icon {
+    margin-right: 10px;
+  }
+  
+  .sidebar-menu-item-text {
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  /* Responsive Styles */
+  @media (min-width: 768px) {
+    .dashboard {
+      flex-direction: row;
+    }
+  
+    .sidebar {
+      max-width: 200px;
+    }
+  
+    .content {
+      background-image: url('https://img.freepik.com/free-vector/medical-protection-immunity-shield-healthcare-background-design_1017-24823.jpg?w=900&t=st=1689843412~exp=1689844012~hmac=18d04fcf385494a2149b4709f5fe21b231fb6c19aec11ac1013547f920ddb714');
+  background-repeat: no-repeat;
+  background-size: cover;
+      background-color: rgb(240, 243, 243);
+      flex: 1;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .sidebar {
+      width: 100%;
+      max-width: none;
+    }
+  }

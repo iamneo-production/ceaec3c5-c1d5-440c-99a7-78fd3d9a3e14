@@ -1,0 +1,31 @@
+.text-cont {
+    margin: 50px;
+    background-image: url('https://img.freepik.com/free-photo/top-view-hands-with-paper-cut-family_23-2148488227.jpg?w=826&t=st=1689835550~exp=1689836150~hmac=b4c3e0711e4647a1bbb51eb9c35e47e8c5b31b7225878abcf1f217d7c27d3adc');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: #3a74f1;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Additional styles to enhance readability */
+  p:first-of-type {
+    margin-top: 0;
+  }
+  
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+  

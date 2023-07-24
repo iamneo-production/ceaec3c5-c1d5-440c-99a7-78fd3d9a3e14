@@ -1,0 +1,35 @@
+
+.stats-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .stats-container h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .stat-item {
+    background-color: #7bfcf1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .stat-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .stat-item p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }

@@ -1,0 +1,137 @@
+/* Signup.css */
+
+#rohith {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.holder {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.parent {
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  color: #333333;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for error messages */
+span.border {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #ff0000;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease;
+}
+
+input[type="text"]:focus ~ span.border,
+input[type="email"]:focus ~ span.border,
+input[type="password"]:focus ~ span.border {
+  transform: scaleX(1);
+}
+
+p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333333;
+}
+
+/* Toast container position and styles */
+.toast-container {
+  z-index: 9999;
+}
+
+/* Toast styles */
+/* You can customize the toast appearance here */
+.toastify-content {
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.toastify-success {
+  background-color: #28a745;
+}
+
+.toastify-error {
+  background-color: #dc3545;
+}
+
+/* Customize the position of the toast here */
+.toastify-top-right {
+  top: 20px;
+  right: 20px;
+}
+
+.toastify-bottom-right {
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Dark theme for toasts */
+.toastify-theme-dark {
+  color: #ffffff;
+}

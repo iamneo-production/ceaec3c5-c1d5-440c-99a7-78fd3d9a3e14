@@ -1,0 +1,68 @@
+/* Add your custom styles for the UserProfile component */
+
+.container-xl {
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .cardbox {
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .cardbox .card-header {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .img-account-profile {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .small {
+    font-size: 12px;
+  }
+  
+  .form-controler {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .form-row {
+    margin-bottom: 20px;
+  }
+  
+  .form-row .col-md-6 {
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styling specific to the form */
+  
